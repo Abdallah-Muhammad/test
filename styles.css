@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    font-family: serif;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul :hover{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Hover effect */
+nav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Active page style */
+nav a.nav-link.active {
+    background-color: #333;
+    color: #fff;
+}
+p { 
+    background-color: aqua;
+
+}
+
